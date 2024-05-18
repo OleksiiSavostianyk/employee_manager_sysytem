@@ -17,14 +17,16 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="4efc78bb-27cc-4594-8a58-c759661b4051">
-      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[Select * from employees where employee_name = 'dfsafaf';]]></console>
+      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[Select * from employees where employee_name = 'John';]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="4efc78bb-27cc-4594-8a58-c759661b4051" object-ref="consoles/Connection" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="4efc78bb-27cc-4594-8a58-c759661b4051" />
@@ -466,7 +468,7 @@
     <operation-settings>
       <transactions>
         <uncommitted-changes>
-          <on-project-close value="ASK" />
+          <on-project-close value="COMMIT" />
           <on-disconnect value="ASK" />
           <on-autocommit-toggle value="ASK" />
         </uncommitted-changes>
